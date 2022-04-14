@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="200sp"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="center"
+        android:padding="10dp"
+        android:src="@drawable/healthbooklogo" />
+
+    <TextView
+        android:id="@+id/login_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_logo"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_textView"
+        android:padding="15dp"
+        android:hint="Username"
+        app:startIconDrawable="@drawable/email_icon_1"
+        app:endIconMode="clear_text"
+        app:boxBackgroundColor="@color/white"
+        android:id="@+id/username"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            >
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:padding="15dp"
+        android:hint="Password"
+        app:startIconDrawable="@drawable/password_icon"
+        app:endIconMode="password_toggle"
+        app:boxBackgroundColor="@color/white"
+        android:id="@+id/password"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:inputType="textPassword"
+            >
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/forgotPassword_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:text="Forget Password" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Login_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forgotPassword_textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:drawableRight="@drawable/arrow_icon"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="20dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:cornerRadius="50dp" />
+
+    <TextView
+        android:id="@+id/Sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:paddingBottom="15dp"
+        android:text="Click here to Sign Up"
+        android:textColor="#1f1f1f"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/loginUsingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Login_in"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:text="Login using"
+        android:textColor="#1f1f1f"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/loginUsingText"
+        android:layout_toLeftOf="@+id/loginUsingText"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:src="@drawable/google" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/facebook_1"
+        android:layout_below="@+id/loginUsingText"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@+id/loginUsingText"
+        />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/loginUsingText"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:src="@drawable/twitter" />
+
+
+
+
+
+
+</RelativeLayout>

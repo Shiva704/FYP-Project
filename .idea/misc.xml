@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/jagad/AndroidStudioProjects/FYP_2022/app/src/main/res/drawable/account.xml" value="0.2203125" />
+        <entry key="..\:/Users/jagad/AndroidStudioProjects/FYP_2022/app/src/main/res/layout/activity_home.xml" value="0.17657657657657658" />
+        <entry key="..\:/Users/jagad/AndroidStudioProjects/FYP_2022/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/jagad/AndroidStudioProjects/FYP_2022/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/jagad/AndroidStudioProjects/FYP_2022/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jagad/AndroidStudioProjects/FYP_2022/app/src/main/res/layout/activity_splash.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/jagad/AndroidStudioProjects/FYP_2022/app/src/main/res/layout/activity_test.xml" value="0.17657657657657658" />
       </map>
     </option>
   </component>
